@@ -33,6 +33,7 @@ renderer.setSize(sizes.width, sizes.height);
 // Renderer
 // renderer.render(scene, camera);
 
+// Animation using external libraries (like GSAP)
 gsap.to(mesh.position, { x: 2, delay: 1, duration: 1 });
 gsap.to(mesh.position, { x: 0, delay: 2, duration: 1 });
 
