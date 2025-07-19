@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /*
+    Prevent scroll beyond the limit of the page
+    if using trackpads, for example, when dragging.
+  */
+  overflow: hidden;
+}
+
+/* Prevent eventual scroll */
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Prevent eventual outline when drag/drop canvas */
+  outline: none;
+}
